@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Page</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .payment-box {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .payment-section {
+            padding: 40px;
+            background: #f4f4f4;
+        }
+
+        input, select {
+            width: 90%;
+            padding: 10px;
+            margin:10px;
+        }
+
+        h2 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 style="color: yellow;">🐾 Payment Page</h1> 
+
+    <nav>
+        <a href="index.html">Home</a>
+        
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+        <a href="checkout.html">Payment</a>
+        <a href="Rigistration.html">Registration</a>
+    </nav>
+</header>
+
+<section class="payment-section">
+
+    <div class="payment-box">
+
+        <h2>Complete Your Purchase 💳</h2>
+
+        <form>
+
+            <input type="text" placeholder="Full Name" required><br>
+
+            <input type="email" placeholder="Email" required><br>
+
+            <input type="text" placeholder="Product Name" required><br>
+
+            <input type="number" placeholder="Amount (Price)" required><br>
+
+            <select>
+                <option>choose Payment Method</option>
+                
+                <option>Bank Transfer</option>
+                <option>Mobile Money</option>
+            </select><br>
+
+            <button style="background:green; color:white; padding:10px; border:none;">
+                Pay Now
+            </button>
+
+        </form>
+
+        <p>✔ Secure and fast payment system</p>
+
+    </div>
+
+</section>
+
+<footer style="background:black; colo:white; text-align:center; padding:10px;">
+    <p>§ 2026 Happy Paws Animal Shop</p>
+</footer>
+
+</body>
+</html>

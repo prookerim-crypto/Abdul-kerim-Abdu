@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+
+    <!-- INTERNAL CSS -->
+    <style>
+        .register-section {
+            padding: 40px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .register-box {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .register-box h2 {
+            color: green;
+        }
+
+        .register-box input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1 style="color: yellow;">🐾 Create Account</h1> <!-- INLINE CSS -->
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pets.html">Pets</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+        <a href="register.html">Register</a>
+    </nav>
+</header>
+
+<section class="register-section">
+
+    <div class="register-box">
+
+        <h2>Sign Up</h2>
+
+        <form>
+
+            <input type="text" placeholder="Full Name" required><br>
+
+            <input type="email" placeholder="Email Address" required><br>
+
+            <input type="password" placeholder="Password" required><br>
+
+            <input type="password" placeholder="Confirm Password" required><br>
+
+            <button onclick="window.location.href='products.html'">
+                Register
+            </button>
+
+        </form>
+
+        <p>Already have an account? <a href="#">Login here</a></p>
+
+    </div>
+
+</section>
+
+<footer style="background:black; color:white; text-align:center; padding:10px;">
+    <p>© 2026 Happy Paws Animal Shop</p>
+</footer>
+
+</body>
+</html>

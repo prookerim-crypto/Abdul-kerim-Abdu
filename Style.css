@@ -1,0 +1,21 @@
+body{margin:0;font-family:Arial;}
+ /*header*/
+ header{background: #4CAF50;
+        color: White;
+        text-align: center;
+        padding:15px;
+nav a{color: flex;
+      margin:10px;
+      text-decoration: none;}
+ /*card*/
+       .card{display: flex;
+             justify-content: center;
+             flex-wrap: wrap;}
+        .card{border: 10px solid #ccc;
+              margin: 15px;
+              padding: 15px;
+              width: 200px;
+              text-align: center;}
+  .card img {width: 100%;}
+  /*contact*/
+  .contact{padding: 30px;}
